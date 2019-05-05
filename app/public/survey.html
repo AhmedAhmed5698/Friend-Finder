@@ -21,7 +21,7 @@
   <div class="container">
     <div class="jumbotron">
       <div class="Mntitle">
-        <h1>Meet Your Match</h1>
+        <h1>Meet Your Forever</h1>
       </div>
       <hr />
       <h2 class="Mntitle">
@@ -40,7 +40,7 @@
 
     <h3><strong>Question 1</strong></h3>
     <h4>I work well with people</h4>
-    <select placeholder="" class="yourChoice" id="q1">
+    <select placeholder="" class="Choice" id="q1">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -51,7 +51,7 @@
 
     <h3><strong>Question 2</strong></h3>
     <h4>I get emotional very quick</h4>
-    <select placeholder="" class="yourChoice" id="q2">
+    <select placeholder="" class="Choice" id="q2">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -62,7 +62,7 @@
 
     <h3><strong>Question 3</strong></h3>
     <h4>Dream with action is not a plan.</h4>
-    <select placeholder="" class="yourChoice" id="q3">
+    <select placeholder="" class="Choice" id="q3">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -73,7 +73,7 @@
 
     <h3><strong>Question 4</strong></h3>
     <h4>I am a natrual born leader</h4>
-    <select placeholder="" class="yourChoice" id="q4">
+    <select placeholder="" class="Choice" id="q4">
       <option value=""></option>
       <option value="1" selected>1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -84,7 +84,7 @@
 
     <h3><strong>Question 5</strong></h3>
     <h4>I enjoy playing sports</h4>
-    <select placeholder="" class="yourChoice" id="q5">
+    <select placeholder="" class="Choice" id="q5">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -95,7 +95,7 @@
 
     <h3><strong>Question 6</strong></h3>
     <h4>I bottle in all my emotions</h4>
-    <select placeholder="" class="yourChoice" id="q6">
+    <select placeholder="" class="Choice" id="q6">
       <option value=""></option>
       <option value="1">1 (No Camping)</option>
       <option value="2">2</option>
@@ -106,7 +106,7 @@
 
     <h3><strong>Question 7</strong></h3>
     <h4> Being logic is better than being emotional </h4>
-    <select placeholder="" class="yourChoice" id="q7">
+    <select placeholder="" class="Choice" id="q7">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2" selected>2</option>
@@ -117,7 +117,7 @@
 
     <h3><strong>Question 8</strong></h3>
     <h4>College degree is impotant</h4>
-    <select placeholder="" class="yourChoice" id="q8">
+    <select placeholder="" class="Choice" id="q8">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -128,7 +128,7 @@
 
     <h3><strong>Question 9</strong></h3>
     <h4>I cant start my day in the morning without coffee</h4>
-    <select placeholder="" class="yourChoice" id="q9">
+    <select placeholder="" class="Choice" id="q9">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -139,7 +139,7 @@
 
     <h3><strong>Question 10</strong></h3>
     <h4>Being healthy is important</h4>
-    <select placeholder="" class="yourChoice" id="q10">
+    <select placeholder="" class="Choice" id="q10">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -158,8 +158,8 @@
     <footer class="footer text-center">
       <div class="container">
         <p>
-          <a href="#">About Harun</a> |
-          <a href="https://github.com/Harun9/Friend_finder">GitHub Repo</a>
+          <a href="#">About Ahmed</a> |
+          <a href="https://github.com/AhmedAhmed5698/Friend-Finder">GitHub Repo</a>
           <br />
         </p>
       </div>
@@ -195,7 +195,7 @@
         $(".form-control").each(function () {
           if ($(this).val() === "") isValid = false;
         });
-        $(".yourChoice").each(function () {
+        $("Choice").each(function () {
           if ($(this).val() === "") isValid = false;
         });
         return isValid;
